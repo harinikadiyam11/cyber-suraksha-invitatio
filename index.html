@@ -34,10 +34,30 @@ header{background:rgba(5,20,39,.97);color:#fff;border-bottom:1px solid rgba(72,2
 </main><footer><div class="wrap"><strong>CYBER SURAKSHA · 2026</strong><br>Cyber Security Awareness Program · Computer Society of India<br>KKR & KSR Institute of Technology & Sciences, Guntur<div class="disclaimer">Please confirm the official names, designations, spelling, and event details with the institution before public distribution.</div></div></footer>
 <script>
 
-photo: "secretary.jpg"
-photo: "chairman.jpg"
-photo: "principalnew.jpg"
-photo: "Harisir_1578295527.jpg"
+
+const guests = {
+  chairman: {
+    name: "Dr. K. Subba Rao",
+    role: "Chairman",
+    photo: "chairman.jpg"
+  },
+  secretary: {
+    name: "Sri Koyi Sekhar",
+    role: "Secretary",
+    photo: "secretary.jpg"
+  },
+  principal: {
+    name: "Dr. P. Babu",
+    role: "Principal",
+    photo: "principalnew.jpg"
+  },
+  director: {
+    name: "Dr. K. Haribabu garu",
+    role: "Director",
+    photo: "Harisir_1578295527.jpg"
+  }
+};
+
 
 function setPhotoSource(img, guest){
   img.alt="Photograph of "+guest.name;
